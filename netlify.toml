@@ -1,0 +1,8 @@
+[build]
+   command = "yarn build"
+   publish = "public"
+
+
+[build.environment]
+   CONTENTFUL_SPACE_ID = "u1qsnxmsc61l"
+   CONTENTFUL_ACCESS_TOKEN = "m83t4zbg8Oekdius2hqhWV_3DVWkwfdP7txn3qlCzks"
