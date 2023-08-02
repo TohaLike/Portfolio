@@ -10,7 +10,7 @@ export default function Layout(props) {
     <div className={[cssVars.root, styles.root].join(" ")}>
       <Head {...props} />
       <header className={styles.header}>
-        <Link to="/">gatsby-starter-landing-page</Link>
+        {/* <Link to="/">gatsby-starter-landing-page</Link> */}
       </header>
       <main className={styles.main}>{props.children}</main>
       <footer className={styles.footer}>
