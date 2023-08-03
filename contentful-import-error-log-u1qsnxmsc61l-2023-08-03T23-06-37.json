@@ -1,0 +1,317 @@
+[
+  {
+    "ts": "2023-08-03T20:08:12.328Z",
+    "level": "error",
+    "error": {
+      "name": "VersionMismatch",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u1qsnxmsc61l"
+            }
+          },
+          "id": "3kf7F5UDU1biOn3nLJdDVX",
+          "type": "Entry",
+          "createdAt": "2023-08-02T14:41:17.066Z",
+          "updatedAt": "2023-08-03T20:07:15.724Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 5,
+          "publishedAt": "2023-08-02T22:43:16.483Z",
+          "firstPublishedAt": "2023-08-02T14:41:48.531Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "publishedCounter": 3,
+          "version": 7,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "landingPage"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Home"
+          },
+          "slug": {
+            "en-US": "/"
+          },
+          "noIndex": {
+            "en-US": false
+          },
+          "title": {
+            "en-US": "Gatsby Starter Landing Page"
+          },
+          "description": {
+            "en-US": "The Gatsby Landing Page Starter is the fastest way to set up a landing page-based website using Contentful + Gatsby."
+          },
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1xxuY57RpctCE4kM0fsIBl"
+              }
+            }
+          },
+          "sections": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6crdpqftDUxrYDdk1wKhV6"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "Ttmi0z39mI7aYlUNJEoJU"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5mrNxnCRG8ykMIT5dlpZ35"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1DZkyC8SviEWf8jm3i0kEV"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "bzyeVVs7owcIREfKbjUQo"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 409,
+        "statusText": "Conflict",
+        "message": "",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/u1qsnxmsc61l/environments/master/entries/3kf7F5UDU1biOn3nLJdDVX/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.63; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.16.1; os Windows/v18.16.1;",
+            "CF-Sequence": "86cad5c6-313d-4f0b-b28a-62fb410a880b",
+            "Authorization": "Bearer ...YJvY8",
+            "X-Contentful-Version": 7,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "1b40776f-63e0-4962-8444-0d86c307acd1"
+      }
+    }
+  },
+  {
+    "ts": "2023-08-03T20:08:23.689Z",
+    "level": "error",
+    "error": {
+      "name": "VersionMismatch",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u1qsnxmsc61l"
+            }
+          },
+          "id": "3kf7F5UDU1biOn3nLJdDVX",
+          "type": "Entry",
+          "createdAt": "2023-08-02T14:41:17.066Z",
+          "updatedAt": "2023-08-03T20:07:15.724Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 5,
+          "publishedAt": "2023-08-02T22:43:16.483Z",
+          "firstPublishedAt": "2023-08-02T14:41:48.531Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "publishedCounter": 3,
+          "version": 7,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "landingPage"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Home"
+          },
+          "slug": {
+            "en-US": "/"
+          },
+          "noIndex": {
+            "en-US": false
+          },
+          "title": {
+            "en-US": "Gatsby Starter Landing Page"
+          },
+          "description": {
+            "en-US": "The Gatsby Landing Page Starter is the fastest way to set up a landing page-based website using Contentful + Gatsby."
+          },
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1xxuY57RpctCE4kM0fsIBl"
+              }
+            }
+          },
+          "sections": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6crdpqftDUxrYDdk1wKhV6"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "Ttmi0z39mI7aYlUNJEoJU"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5mrNxnCRG8ykMIT5dlpZ35"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1DZkyC8SviEWf8jm3i0kEV"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "bzyeVVs7owcIREfKbjUQo"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 409,
+        "statusText": "Conflict",
+        "message": "",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/u1qsnxmsc61l/environments/master/entries/3kf7F5UDU1biOn3nLJdDVX/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.63; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.16.1; os Windows/v18.16.1;",
+            "CF-Sequence": "86cad5c6-313d-4f0b-b28a-62fb410a880b",
+            "Authorization": "Bearer ...YJvY8",
+            "X-Contentful-Version": 7,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "de6822dd-c743-476e-8374-f0a486d69340"
+      }
+    }
+  },
+  {
+    "ts": "2023-08-03T20:08:23.689Z",
+    "level": "error",
+    "error": "Could not publish the following entities: Gatsby Starter Landing Page (3kf7F5UDU1biOn3nLJdDVX)"
+  }
+]
