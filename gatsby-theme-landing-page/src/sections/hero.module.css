@@ -8,7 +8,6 @@
   font-family: var(--font-heading);
   font-size: var(--font-size-6);
   margin: 0;
-  /* margin-bottom: var(--space-4); */
 }
 
 .root .secondaryHeading {
