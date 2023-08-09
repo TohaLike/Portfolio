@@ -20,7 +20,7 @@
 
 [data-gatsby-image-wrapper] div:not([class]) {
   max-width: 500px !important;
-  display: block;
+  display: block !important;
 }
 
 .buttonContainer {
