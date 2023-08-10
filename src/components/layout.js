@@ -18,7 +18,7 @@ export default function Layout(props) {
         <a href="https://github.com/gatsbyjs/gatsby-starter-landing-page">
           View Source on GitHub
         </a>
-        <Link to="/demo">Demo</Link>
+        {/* <Link to="/demo">Demo</Link> */}
       </footer>
     </div>
   );
