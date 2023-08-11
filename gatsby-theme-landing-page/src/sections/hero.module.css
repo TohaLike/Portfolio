@@ -18,7 +18,7 @@
   letter-spacing: var(--letter-spacing-caps);
 }
 
-[data-gatsby-image-wrapper] div:not([class]) {
+.root [data-gatsby-image-wrapper] div:not([class]) {
   border: 1px solid #000000;
   border-radius: 212px;
   max-width: 300px !important;
@@ -28,6 +28,10 @@
 .buttonContainer {
   display: flex;
   gap: var(--space-3);
+}
+
+.line__border {
+  border: 2px xolid #000000;
 }
 
 @media screen and (min-width: 640px) {
@@ -46,7 +50,7 @@
     margin-right: 30px;
   }
 
-  [data-gatsby-image-wrapper] div:not([class]) {
+  .root [data-gatsby-image-wrapper] div:not([class]) {
     border: 1px solid #000000;
     border-radius: 125px;
     max-width: 500px !important;

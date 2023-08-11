@@ -11,9 +11,9 @@ export default function Features({ heading, secondaryHeading, content }) {
   return (
     <Section>
       <Heading center>{heading}</Heading>
-      <Heading secondary center>
-        {secondaryHeading}
-      </Heading>
+      {/* <Heading secondary center>
+            {secondaryHeading}
+         </Heading> */}
       <div className={styles.content}>
         {content.map((item, i) => (
           <Feature
@@ -34,6 +34,8 @@ function Feature({
   orientation = "default",
 }) {
   const orientationStyle = orientation === "default" ? "" : styles.reverse;
+
+  console.log("Error:", image);
 
   return (
     <div className={`${styles.featureContainer} ${orientationStyle}`}>
