@@ -34,6 +34,12 @@
   border: 2px xolid #000000;
 }
 
+.root .links__network .network__icon {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
 @media screen and (min-width: 640px) {
   .root {
     margin-right: 12%;

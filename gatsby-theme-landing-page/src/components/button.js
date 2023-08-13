@@ -16,8 +16,8 @@ export default function Button({ href, text, children, variant = "primary" }) {
   }
 
   return (
-    <Link className={buttonStyle} to={href}>
-      {text || children}
-    </Link>
+    <a className={buttonStyle} href="https://t.me/smokeonthetower">
+      Telegram
+    </a>
   );
 }
