@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
 import isAbsoluteURL from "is-absolute-url";
 import * as styles from "./button.module.css";
 
