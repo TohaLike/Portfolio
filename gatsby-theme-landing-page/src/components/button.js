@@ -3,20 +3,20 @@ import isAbsoluteURL from "is-absolute-url";
 import * as styles from "./button.module.css";
 
 export default function Button({ href, text, children, variant = "primary" }) {
-  const buttonStyle =
-    variant === "primary" ? styles.buttonPrimary : styles.buttonSecondary;
-
   if (isAbsoluteURL(href)) {
     return (
-      <a className={buttonStyle} href={href}>
-        {text || children}
-      </a>
+      <>
+        <a className={styles.buttonPrimary} href={href}>
+          {text || children}
+        </a>
+
+        <a
+          className={styles.buttonSecondary}
+          href="https://t.me/smokeonthetower"
+        >
+          Telegram
+        </a>
+      </>
     );
   }
-
-  return (
-    <a className={buttonStyle} href="https://t.me/smokeonthetower">
-      Telegram
-    </a>
-  );
 }
