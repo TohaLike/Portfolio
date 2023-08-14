@@ -35,7 +35,7 @@ function Feature({
 }) {
   const orientationStyle = orientation === "default" ? "" : styles.reverse;
 
-  console.log("Error:", image);
+  //   console.log("Error:", image);
 
   return (
     <div className={`${styles.featureContainer} ${orientationStyle}`}>
