@@ -2,7 +2,7 @@ import * as React from "react";
 import isAbsoluteURL from "is-absolute-url";
 import * as styles from "./button.module.css";
 
-export default function Button({ href, text, children, variant = "primary" }) {
+export default function Button({ href, text, children }) {
   if (isAbsoluteURL(href)) {
     return (
       <>
