@@ -28,6 +28,7 @@
     flex-direction: row;
     align-items: flex-start;
     gap: var(--space-4);
+    margin-top: 40px;
   }
 
   .contentCard {
