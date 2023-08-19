@@ -1612,6 +1612,254 @@
          }
        }
      },
+     
+
+      {
+       "metadata": {
+         "tags": [
+         ]
+       },
+       "sys": {
+         "space": {
+           "sys": {
+             "type": "Link",
+             "linkType": "Space",
+             "id": "u1qsnxmsc61l"
+           }
+         },
+         "id": "3aaWZKGi0rT5xBJXVeYYZV",
+         "type": "Entry",
+         "createdAt": "2023-08-02T14:41:15.002Z",
+         "updatedAt": "2023-08-14T16:09:35.074Z",
+         "environment": {
+           "sys": {
+             "id": "master",
+             "type": "Link",
+             "linkType": "Environment"
+           }
+         },
+         "publishedVersion": 15,
+         "publishedAt": "2023-08-14T16:09:35.074Z",
+         "firstPublishedAt": "2023-08-02T14:41:34.122Z",
+         "createdBy": {
+           "sys": {
+             "type": "Link",
+             "linkType": "User",
+             "id": "0H7j46o259a6NoP7x8Fu2t"
+           }
+         },
+         "updatedBy": {
+           "sys": {
+             "type": "Link",
+             "linkType": "User",
+             "id": "0H7j46o259a6NoP7x8Fu2t"
+           }
+         },
+         "publishedCounter": 7,
+         "version": 16,
+         "publishedBy": {
+           "sys": {
+             "type": "Link",
+             "linkType": "User",
+             "id": "0H7j46o259a6NoP7x8Fu2t"
+           }
+         },
+         "automationTags": [
+         ],
+         "contentType": {
+           "sys": {
+             "type": "Link",
+             "linkType": "ContentType",
+             "id": "landingPageContent"
+           }
+         }
+       },
+       "fields": {
+         "name": {
+           "en-US": "Home > Benefits > Figma"
+         },
+         "primaryText": {
+           "en-US": "Node.js"
+         },
+         "secondaryText": {
+           "en-US": "Разработка серверной части приложений с использованием Node.js и Express.js. Создание серверов, обработка запросов и взаимодействие с клиентской частью."
+         },
+         "image": {
+           "en-US": {
+             "sys": {
+               "type": "Link",
+               "linkType": "Asset",
+               "id": "4mUEXODXv4GG1OyXBkOOZi"
+             }
+           }
+         }
+       }
+     },
+
+      {
+       "metadata": {
+         "tags": [
+         ]
+       },
+       "sys": {
+         "space": {
+           "sys": {
+             "type": "Link",
+             "linkType": "Space",
+             "id": "u1qsnxmsc61l"
+           }
+         },
+         "id": "1ZhBxfSGZA0CQqTZSkasXx",
+         "type": "Entry",
+         "createdAt": "2023-08-02T14:41:15.002Z",
+         "updatedAt": "2023-08-14T16:09:35.074Z",
+         "environment": {
+           "sys": {
+             "id": "master",
+             "type": "Link",
+             "linkType": "Environment"
+           }
+         },
+         "publishedVersion": 15,
+         "publishedAt": "2023-08-14T16:09:35.074Z",
+         "firstPublishedAt": "2023-08-02T14:41:34.122Z",
+         "createdBy": {
+           "sys": {
+             "type": "Link",
+             "linkType": "User",
+             "id": "0H7j46o259a6NoP7x8Fu2t"
+           }
+         },
+         "updatedBy": {
+           "sys": {
+             "type": "Link",
+             "linkType": "User",
+             "id": "0H7j46o259a6NoP7x8Fu2t"
+           }
+         },
+         "publishedCounter": 7,
+         "version": 16,
+         "publishedBy": {
+           "sys": {
+             "type": "Link",
+             "linkType": "User",
+             "id": "0H7j46o259a6NoP7x8Fu2t"
+           }
+         },
+         "automationTags": [
+         ],
+         "contentType": {
+           "sys": {
+             "type": "Link",
+             "linkType": "ContentType",
+             "id": "landingPageContent"
+           }
+         }
+       },
+       "fields": {
+         "name": {
+           "en-US": "Home > Benefits > Express"
+         },
+         "primaryText": {
+           "en-US": "Node.js"
+         },
+         "secondaryText": {
+           "en-US": "Разработка серверной части приложений с использованием Node.js и Express.js. Создание серверов, обработка запросов и взаимодействие с клиентской частью."
+         },
+         "image": {
+           "en-US": {
+             "sys": {
+               "type": "Link",
+               "linkType": "Asset",
+               "id": "VadZzsf64N2xniq8EAm4R"
+             }
+           }
+         }
+       }
+     },
+
+      {
+       "metadata": {
+         "tags": [
+         ]
+       },
+       "sys": {
+         "space": {
+           "sys": {
+             "type": "Link",
+             "linkType": "Space",
+             "id": "u1qsnxmsc61l"
+           }
+         },
+         "id": "42oT9jVq5DgBXdlrPwXyj1",
+         "type": "Entry",
+         "createdAt": "2023-08-02T14:41:15.002Z",
+         "updatedAt": "2023-08-14T16:09:35.074Z",
+         "environment": {
+           "sys": {
+             "id": "master",
+             "type": "Link",
+             "linkType": "Environment"
+           }
+         },
+         "publishedVersion": 15,
+         "publishedAt": "2023-08-14T16:09:35.074Z",
+         "firstPublishedAt": "2023-08-02T14:41:34.122Z",
+         "createdBy": {
+           "sys": {
+             "type": "Link",
+             "linkType": "User",
+             "id": "0H7j46o259a6NoP7x8Fu2t"
+           }
+         },
+         "updatedBy": {
+           "sys": {
+             "type": "Link",
+             "linkType": "User",
+             "id": "0H7j46o259a6NoP7x8Fu2t"
+           }
+         },
+         "publishedCounter": 7,
+         "version": 16,
+         "publishedBy": {
+           "sys": {
+             "type": "Link",
+             "linkType": "User",
+             "id": "0H7j46o259a6NoP7x8Fu2t"
+           }
+         },
+         "automationTags": [
+         ],
+         "contentType": {
+           "sys": {
+             "type": "Link",
+             "linkType": "ContentType",
+             "id": "landingPageContent"
+           }
+         }
+       },
+       "fields": {
+         "name": {
+           "en-US": "Home > Benefits > JavaScript"
+         },
+         "primaryText": {
+           "en-US": "Node.js"
+         },
+         "secondaryText": {
+           "en-US": "Разработка серверной части приложений с использованием Node.js и Express.js. Создание серверов, обработка запросов и взаимодействие с клиентской частью."
+         },
+         "image": {
+           "en-US": {
+             "sys": {
+               "type": "Link",
+               "linkType": "Asset",
+               "id": "4SUE9PuG4p52GacmIxqweC"
+             }
+           }
+         }
+       }
+     },
+
      {
        "metadata": {
          "tags": [
@@ -1693,6 +1941,8 @@
          }
        }
      },
+
+
      {
        "metadata": {
          "tags": [
@@ -1774,6 +2024,8 @@
          }
        }
      },
+
+
      {
        "metadata": {
          "tags": [
@@ -1855,6 +2107,8 @@
          }
        }
      },
+
+
      {
        "metadata": {
          "tags": [
@@ -1936,6 +2190,8 @@
          }
        }
      },
+
+
      {
        "metadata": {
          "tags": [
@@ -2235,7 +2491,7 @@
            "en-US": "Home > Testimonials > Content Creators"
          },
          "primaryText": {
-           "en-US": "\"Contentful allows content creators at Gatsby to quickly create and edit landing pages without having to coordinate with multiple other teams.\""
+           "en-US": "Если у вас возникли какие-либо вопросы или предложения о сотрудничестве, не стесняйтесь связаться со мной. Я готов к взаимодействию и готов рассмотреть новые возможности."
          },
          "secondaryText": {
            "en-US": "Carrie Contentson"
@@ -2692,6 +2948,27 @@
                  "type": "Link",
                  "linkType": "Entry",
                  "id": "1rG7A4Si0bTiab8Wy36hNk"
+               }
+             },
+             {
+               "sys": {
+                 "type": "Link",
+                 "linkType": "Entry",
+                 "id": "42oT9jVq5DgBXdlrPwXyj1"
+               }
+             },
+             {
+               "sys": {
+                 "type": "Link",
+                 "linkType": "Entry",
+                 "id": "1ZhBxfSGZA0CQqTZSkasXx"
+               }
+             },
+             {
+               "sys": {
+                 "type": "Link",
+                 "linkType": "Entry",
+                 "id": "3aaWZKGi0rT5xBJXVeYYZV"
                }
              }
            ]

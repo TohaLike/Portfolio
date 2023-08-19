@@ -1,0 +1,921 @@
+[
+  {
+    "ts": "2023-08-19T10:41:16.177Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u1qsnxmsc61l"
+            }
+          },
+          "id": "Ttmi0z39mI7aYlUNJEoJU",
+          "type": "Entry",
+          "createdAt": "2023-08-02T14:41:16.958Z",
+          "updatedAt": "2023-08-19T10:41:07.677Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 15,
+          "publishedAt": "2023-08-11T12:29:23.608Z",
+          "firstPublishedAt": "2023-08-02T14:41:46.215Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "publishedCounter": 6,
+          "version": 19,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "landingPageSection"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Home > Features"
+          },
+          "component": {
+            "en-US": "Features"
+          },
+          "heading": {
+            "en-US": "Мои проекты"
+          },
+          "secondaryHeading": {
+            "en-US": "Everything you need to start creating landing pages today"
+          },
+          "content": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5cw1ICWxv8JONQm1JBd5s6"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "01IEvGXxMqJTb9WkygYWAs"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "10gsmqvVL6jiaQzTSveVDw"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "10gsmqvVL6jiaQzTSveVDw"
+              },
+              "path": [
+                "fields",
+                "content",
+                "en-US",
+                2
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/u1qsnxmsc61l/environments/master/entries/Ttmi0z39mI7aYlUNJEoJU/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.63; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.16.1; os Windows/v18.16.1;",
+            "CF-Sequence": "e94840cb-2f01-43ad-99ae-f516bf9e0f1e",
+            "Authorization": "Bearer ...hfCdM",
+            "X-Contentful-Version": 19,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "1739d36e-e174-4b67-8c6e-4fd5f9db98ef"
+      }
+    }
+  },
+  {
+    "ts": "2023-08-19T10:41:17.509Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u1qsnxmsc61l"
+            }
+          },
+          "id": "7CKTiKTserFfVf6IWES0h8",
+          "type": "Entry",
+          "createdAt": "2023-08-02T14:41:16.999Z",
+          "updatedAt": "2023-08-19T10:41:07.744Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 13,
+          "publishedAt": "2023-08-04T06:58:54.016Z",
+          "firstPublishedAt": "2023-08-02T14:41:46.956Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "publishedCounter": 7,
+          "version": 17,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "landingPageContent"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Home > Hero > Content"
+          },
+          "primaryText": {
+            "en-US": "Занимаюсь разработкой веб-приложений и созданием пользовательских интерфейсов."
+          },
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1xxuY57RpctCE4kM0fsIBl"
+              }
+            }
+          },
+          "links": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "44RybxnsYC9JYE0LBmBXdx"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5OBHgU5Vh1LnRQBhq7rfWC"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5OBHgU5Vh1LnRQBhq7rfWC"
+              },
+              "path": [
+                "fields",
+                "links",
+                "en-US",
+                1
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/u1qsnxmsc61l/environments/master/entries/7CKTiKTserFfVf6IWES0h8/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.63; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.16.1; os Windows/v18.16.1;",
+            "CF-Sequence": "e94840cb-2f01-43ad-99ae-f516bf9e0f1e",
+            "Authorization": "Bearer ...hfCdM",
+            "X-Contentful-Version": 17,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "9fbbc5ba-319f-4d43-83bd-fa4339c8a025"
+      }
+    }
+  },
+  {
+    "ts": "2023-08-19T10:41:18.019Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u1qsnxmsc61l"
+            }
+          },
+          "id": "3kf7F5UDU1biOn3nLJdDVX",
+          "type": "Entry",
+          "createdAt": "2023-08-02T14:41:17.066Z",
+          "updatedAt": "2023-08-19T10:41:07.853Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 12,
+          "publishedAt": "2023-08-13T13:07:52.898Z",
+          "firstPublishedAt": "2023-08-02T14:41:48.531Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "publishedCounter": 6,
+          "version": 16,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "landingPage"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Home"
+          },
+          "slug": {
+            "en-US": "/"
+          },
+          "noIndex": {
+            "en-US": false
+          },
+          "title": {
+            "en-US": "Anton Malyshev"
+          },
+          "description": {
+            "en-US": "The Gatsby Landing Page Starter is the fastest way to set up a landing page-based website using Contentful + Gatsby."
+          },
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1xxuY57RpctCE4kM0fsIBl"
+              }
+            }
+          },
+          "sections": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6crdpqftDUxrYDdk1wKhV6"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "Ttmi0z39mI7aYlUNJEoJU"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5mrNxnCRG8ykMIT5dlpZ35"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1DZkyC8SviEWf8jm3i0kEV"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "bzyeVVs7owcIREfKbjUQo"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "bzyeVVs7owcIREfKbjUQo"
+              },
+              "path": [
+                "fields",
+                "sections",
+                "en-US",
+                4
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/u1qsnxmsc61l/environments/master/entries/3kf7F5UDU1biOn3nLJdDVX/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.63; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.16.1; os Windows/v18.16.1;",
+            "CF-Sequence": "e94840cb-2f01-43ad-99ae-f516bf9e0f1e",
+            "Authorization": "Bearer ...hfCdM",
+            "X-Contentful-Version": 16,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "401cec33-e6e2-4cd4-9069-344f13d301aa"
+      }
+    }
+  },
+  {
+    "ts": "2023-08-19T10:41:21.403Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u1qsnxmsc61l"
+            }
+          },
+          "id": "Ttmi0z39mI7aYlUNJEoJU",
+          "type": "Entry",
+          "createdAt": "2023-08-02T14:41:16.958Z",
+          "updatedAt": "2023-08-19T10:41:07.677Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 15,
+          "publishedAt": "2023-08-11T12:29:23.608Z",
+          "firstPublishedAt": "2023-08-02T14:41:46.215Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "publishedCounter": 6,
+          "version": 19,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "landingPageSection"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Home > Features"
+          },
+          "component": {
+            "en-US": "Features"
+          },
+          "heading": {
+            "en-US": "Мои проекты"
+          },
+          "secondaryHeading": {
+            "en-US": "Everything you need to start creating landing pages today"
+          },
+          "content": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5cw1ICWxv8JONQm1JBd5s6"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "01IEvGXxMqJTb9WkygYWAs"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "10gsmqvVL6jiaQzTSveVDw"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "10gsmqvVL6jiaQzTSveVDw"
+              },
+              "path": [
+                "fields",
+                "content",
+                "en-US",
+                2
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/u1qsnxmsc61l/environments/master/entries/Ttmi0z39mI7aYlUNJEoJU/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.63; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.16.1; os Windows/v18.16.1;",
+            "CF-Sequence": "e94840cb-2f01-43ad-99ae-f516bf9e0f1e",
+            "Authorization": "Bearer ...hfCdM",
+            "X-Contentful-Version": 19,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "9b1ad423-32f9-49b4-84eb-a744158ec518"
+      }
+    }
+  },
+  {
+    "ts": "2023-08-19T10:41:21.919Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u1qsnxmsc61l"
+            }
+          },
+          "id": "7CKTiKTserFfVf6IWES0h8",
+          "type": "Entry",
+          "createdAt": "2023-08-02T14:41:16.999Z",
+          "updatedAt": "2023-08-19T10:41:07.744Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 13,
+          "publishedAt": "2023-08-04T06:58:54.016Z",
+          "firstPublishedAt": "2023-08-02T14:41:46.956Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "publishedCounter": 7,
+          "version": 17,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "landingPageContent"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Home > Hero > Content"
+          },
+          "primaryText": {
+            "en-US": "Занимаюсь разработкой веб-приложений и созданием пользовательских интерфейсов."
+          },
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1xxuY57RpctCE4kM0fsIBl"
+              }
+            }
+          },
+          "links": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "44RybxnsYC9JYE0LBmBXdx"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5OBHgU5Vh1LnRQBhq7rfWC"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5OBHgU5Vh1LnRQBhq7rfWC"
+              },
+              "path": [
+                "fields",
+                "links",
+                "en-US",
+                1
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/u1qsnxmsc61l/environments/master/entries/7CKTiKTserFfVf6IWES0h8/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.63; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.16.1; os Windows/v18.16.1;",
+            "CF-Sequence": "e94840cb-2f01-43ad-99ae-f516bf9e0f1e",
+            "Authorization": "Bearer ...hfCdM",
+            "X-Contentful-Version": 17,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "690461de-f338-4705-8f8a-d0e6a6d1e5c6"
+      }
+    }
+  },
+  {
+    "ts": "2023-08-19T10:41:22.525Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u1qsnxmsc61l"
+            }
+          },
+          "id": "3kf7F5UDU1biOn3nLJdDVX",
+          "type": "Entry",
+          "createdAt": "2023-08-02T14:41:17.066Z",
+          "updatedAt": "2023-08-19T10:41:07.853Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 12,
+          "publishedAt": "2023-08-13T13:07:52.898Z",
+          "firstPublishedAt": "2023-08-02T14:41:48.531Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "publishedCounter": 6,
+          "version": 16,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0H7j46o259a6NoP7x8Fu2t"
+            }
+          },
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "landingPage"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Home"
+          },
+          "slug": {
+            "en-US": "/"
+          },
+          "noIndex": {
+            "en-US": false
+          },
+          "title": {
+            "en-US": "Anton Malyshev"
+          },
+          "description": {
+            "en-US": "The Gatsby Landing Page Starter is the fastest way to set up a landing page-based website using Contentful + Gatsby."
+          },
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1xxuY57RpctCE4kM0fsIBl"
+              }
+            }
+          },
+          "sections": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6crdpqftDUxrYDdk1wKhV6"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "Ttmi0z39mI7aYlUNJEoJU"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5mrNxnCRG8ykMIT5dlpZ35"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1DZkyC8SviEWf8jm3i0kEV"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "bzyeVVs7owcIREfKbjUQo"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "bzyeVVs7owcIREfKbjUQo"
+              },
+              "path": [
+                "fields",
+                "sections",
+                "en-US",
+                4
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/u1qsnxmsc61l/environments/master/entries/3kf7F5UDU1biOn3nLJdDVX/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.63; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v18.16.1; os Windows/v18.16.1;",
+            "CF-Sequence": "e94840cb-2f01-43ad-99ae-f516bf9e0f1e",
+            "Authorization": "Bearer ...hfCdM",
+            "X-Contentful-Version": 16,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "a5aea7d1-0586-4fbe-8b35-782b09e57f05"
+      }
+    }
+  },
+  {
+    "ts": "2023-08-19T10:41:22.525Z",
+    "level": "error",
+    "error": "Could not publish the following entities: Home > Features (Ttmi0z39mI7aYlUNJEoJU), Home > Hero > Content (7CKTiKTserFfVf6IWES0h8), Anton Malyshev (3kf7F5UDU1biOn3nLJdDVX)"
+  }
+]
