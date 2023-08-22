@@ -14,11 +14,11 @@ export default function Layout(props) {
       </header>
       <main className={styles.main}>{props.children}</main>
       <footer className={styles.footer}>
-        <a href="https://gatsbyjs.com">Built with Gatsby</a>
+        {/* <a href="https://gatsbyjs.com">Built with Gatsby</a>
         <a href="https://github.com/gatsbyjs/gatsby-starter-landing-page">
           View Source on GitHub
         </a>
-        <Link to="/demo">Demo</Link>
+        <Link to="/demo">Demo</Link> */}
       </footer>
     </div>
   );

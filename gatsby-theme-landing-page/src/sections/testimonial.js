@@ -8,7 +8,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 export default function Testimonial({ heading, secondaryHeading, content }) {
   return (
     <Section>
-      <Heading center>{heading}</Heading>
+      {/* <Heading center>{heading}</Heading>
       <Heading secondary center>
         {secondaryHeading}
       </Heading>
@@ -16,7 +16,7 @@ export default function Testimonial({ heading, secondaryHeading, content }) {
         {content.map((item) => (
           <TestimonialContent {...item} />
         ))}
-      </div>
+      </div> */}
     </Section>
   );
 }
@@ -26,7 +26,7 @@ function TestimonialContent({ primaryText, secondaryText, avatar }) {
 
   return (
     <div className={styles.testimonial}>
-      <MarkdownText as="blockquote" className={styles.quote} {...primaryText} />
+      {/* <MarkdownText as="blockquote" className={styles.quote} {...primaryText} />
       <div className={styles.author}>
         {avatar && (
           <div className={styles.avatar}>
@@ -41,7 +41,7 @@ function TestimonialContent({ primaryText, secondaryText, avatar }) {
           className={styles.authorInfo}
           {...secondaryText}
         />
-      </div>
+      </div> */}
     </div>
   );
 }

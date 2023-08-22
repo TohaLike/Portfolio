@@ -23,11 +23,11 @@ export default function CallToAction({ heading, secondaryHeading, content }) {
 function Content({ primaryText, secondaryText, links = [] }) {
   return (
     <div className={styles.content}>
-      <div className={styles.buttons}>
+      {/* <div className={styles.buttons}>
         {links && links.map((link) => <Button key={link.id} {...link} />)}
       </div>
       <MarkdownText {...primaryText} />
-      <MarkdownText {...secondaryText} />
+      <MarkdownText {...secondaryText} /> */}
     </div>
   );
 }
