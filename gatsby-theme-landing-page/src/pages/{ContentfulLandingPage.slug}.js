@@ -7,7 +7,7 @@ import DevDebug from "../components/dev-debug";
 
 export default function LandingPage(props) {
   const { sections } = props.data.page;
-  console.log(props.data.page);
+  //   console.log(props.data.page);
 
   return (
     <Layout {...props.data.page}>
