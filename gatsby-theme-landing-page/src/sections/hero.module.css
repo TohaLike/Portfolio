@@ -19,6 +19,7 @@
 }
 
 .root [data-gatsby-image-wrapper] div:not([class]) {
+  background-color: #000000;
   border: 1px solid #000000;
   border-radius: 212px;
   max-width: 300px !important;
@@ -57,6 +58,7 @@
   }
 
   .root [data-gatsby-image-wrapper] div:not([class]) {
+    background-color: #000000;
     border: 1px solid #000000;
     border-radius: 125px;
     max-width: 500px !important;
